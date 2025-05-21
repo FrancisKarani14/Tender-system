@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 3px;
+}

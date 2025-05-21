@@ -1,0 +1,278 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --BGCOLOR:rgba(0, 0, 255, 0.555);
+    --TEXT:white;
+    --BODY:#f5f5f5;
+    --HOVER:red;
+    --SECTION:rgba(0, 0, 255, 0.493);
+
+}
+.container{
+    width: 100%;
+    background-image: linear-gradient(var(--BGCOLOR), var(--BGCOLOR)), url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+body{
+    background-color: var(--BODY);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    text-transform: capitalize;
+    list-style: none;
+    margin-top: 10px;
+    padding-right: 10px;
+    
+}
+ul{
+    background-color: var(--TEXT);
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+    
+}
+li:hover{
+    cursor: pointer;
+    color: var(--HOVER);
+}
+li a:hover{
+    color:var(--HOVER);
+}
+ h1{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+ }
+  p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+  }
+   main p{
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+   }
+
+   h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+   }
+    .container2{
+        background-image: linear-gradient(var(--SECTION), var(--SECTION)), url(/images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+    
+    details {
+        
+        font-size: 1.2rem;
+        color:white;
+    }
+    section p{
+        text-align: left;
+        font-weight: 700;
+    }
+    img{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    nav{
+        position: fixed;
+        top: 0%;
+        width: 100%;
+    }
+    /* small screen */
+    @media screen and (max-width: 576px) {
+        nav ul li img {
+            height: 30px;
+        }
+        nav ul{
+           height: 30px; 
+           justify-content: right;
+           gap: 10px;
+        }
+        nav ul li a{
+           font-size: 1rem; 
+        }
+        
+    }
+
+    @media screen and (max-width: 693px) {
+        nav ul li a{
+            font-size: 1.2rem;
+            
+        }
+        nav ul li img{
+            height: 50px;
+            box-shadow: 5px 5px 10px black;
+
+        }
+        nav ul{
+            height: 50px;
+        }
+        nav ul li{
+            padding-top: 15px;
+        }
+    }
+    @media screen and (max-width: 730px) {
+    nav ul{
+        gap: 20px;
+        height: 50px;
+    }
+    nav ul li img{
+        height: 50px;
+    }
+    .container h1{
+        padding-top: 20px;
+    }
+   } 
+    
+     @media screen and (max-width: 786px) {
+        nav ul{
+            height: 70px;
+        }
+        nav ul li img{
+            height: 70px;
+        }
+        nav ul li a{
+            font-size: 1.5rem;
+        }
+        nav ul li{
+            padding-top: 20px;
+        }
+     }
+    /* @media screen and (max-width: 992px) {
+        nav ul li img{
+            height: 70px;
+            box-shadow: 10px 10px 25px black;
+        }
+        nav ul{
+            height: 70px;
+        }
+        nav ul li{
+            font-size: 2rem;
+            padding-top: 20px;
+        }
+        .container{
+            height: 20vh;
+        }
+        .container p{
+            padding-top: 40px;
+        }
+        body p{
+            font-size: 1.2rem;
+        }
+    }
+    @media screen and (max-width: 1200px) {
+        nav ul li img{
+            height: 80px;
+            box-shadow: 10px 10px 25px black;
+        }
+        
+        nav ul{
+            height: 80px;
+        }
+        nav ul li{
+            font-size: 2rem;
+            padding-top: 20px;
+        }
+        .container{
+            height: 30vh;
+        }
+        .container{
+            padding-top: 50px;
+        }
+        
+    
+    }
+    @media screen and (max-width:1400px) {
+        nav ul li img{
+            height: 80px;
+            box-shadow: 10px 10px 25px black;
+        }
+        nav ul{
+            height: 80px;
+        }
+        nav ul li {
+            font-size: 2rem;
+            padding-top: 20px;
+        }
+        .container{
+            height: 30vh;
+            p{
+                padding-top: 50px;
+            }
+            h1{
+                padding-top: 50px;
+            }
+        }
+            
+        }
+        @media screen and (max-width: 1500px) {
+            .container p{
+                margin-bottom: 20px;
+                
+            }
+            
+        }
+        @media screen and (max-width:2000px) {
+            nav ul li img{
+                height: 100px;
+                box-shadow: 10px 10px 25px black;
+            }
+            nav ul{
+                height: 100px;
+            }
+            nav ul li {
+                font-size: 2.5rem;
+                padding-top: 20px;
+            }
+            .container{
+                height: 30vh;
+                p{
+                    padding-top: 50px;
+                    font-size: 2.5rem;
+                    padding-bottom: 50px;
+                }
+                h1{
+                    padding-top: 70px;
+                }
+            }
+            .container3{
+                p{
+                    font-size: 2.5rem;
+                }
+            }
+            .container2{
+                p{
+                    font-size: 2.5rem;
+                }
+                details{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+     */ */ */

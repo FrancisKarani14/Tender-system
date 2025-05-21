@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+:root{
+    --BGcOLOR:rgba(0, 0, 255, 0.555);
+    --FORM:white;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(var(--BGcOLOR), var(--BGcOLOR)), url(/images/shake\ hands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.formfield{
+   background-color: white;
+   width: 60%;
+   max-width: 65%;
+   height: 63%;
+   max-height:63%;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%, -50%);
+   border-radius: 2rem;
+   box-shadow: 10px 10px 25px black;
+   border: dotted;
+}
+ h1{
+    text-align: center;
+    margin-top: 10px;
+ }
+ .inputfield{
+    background-color: blue;
+ }
+ a{
+    color: black;
+    text-decoration: none;
+ }
+ a:hover{
+    color: red;
+ }
+ ul{
+    background-color: white;
+    display: flex;
+    font-size: 2rem;
+    text-transform: capitalize;
+    gap: 30px;
+    list-style: none;
+ }
+ li{
+    margin-top: 10px;
+ }
+ .inputfield{
+    padding-left: 20px;
+    margin-top: 10px;
+    background-color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 2rem;
+    
+
+ }
+ input{
+    background-color: transparent;
+    border: none;
+    color: white;
+ }
+ input::placeholder{
+    color: rgba(255, 255, 255, 0.589);
+ }
+ .pgroup{
+    margin-top: 5px;
+ }
+ p{
+    text-align: center;
+ }
+ .btnfield{
+    margin-left: 38%;
+    margin-top: 0px;
+ }
+ button{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+ }
+ a{
+    color: black;
+    text-decoration: none;
+ }
+ a:hover{
+    color: red;
+ }
+ ul{
+    background-color: white;
+    display: flex;
+    font-size: 2rem;
+    text-transform: capitalize;
+    gap: 30px;
+    list-style: none;
+ }
+ li{
+    margin-top: 10px;
+ }

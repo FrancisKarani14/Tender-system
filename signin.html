@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tender Kenya</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="icon" href="/images/kenya.jpg">
+</head>
+<body>
+    <div class="container">
+        <nav>
+           
+            <ul>
+                <img src="/images/kenya.jpg" alt="" height="70px">
+                <li><a href="tenderhome.html" target="">Home</a></li>
+                <li><a href="login.html" target="">login</a></li>
+            </ul>
+        </nav>
+        <div class="formfield">
+            <form action="" id="myform">
+            <h1>Sign In to Tender Pick</h1>
+            <div class="inputfield">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="John Doe">
+            </div>
+            <div class="inputfield">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@gmail.com">
+            </div>
+            <div class="inputfield">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="inputfield">
+                <label for="confirmpassword">confirm password</label>
+                <input type="password" id="confirmpassword">
+                
+            </div>
+            <div class="inputfield">
+                <label for="nationality">Nationality</label>
+                <input type="text" id="nationality" placeholder="country">
+            </div>
+             <div class="inputfield">
+                <label for="age">Age</label>
+                <input type="number" id="age">
+             </div>
+           <div class="pgroup"> 
+            <p id="errorMessage" style="color: red;"></p>
+            <p>You forgot your password? <a href="#">Clik here!</a></p>
+            <p id="Message">You already have an account, <a href="login.html">login</a></p>
+        </div>
+        <div class="btnfield">
+            <button type="submit">sign in</button></div>
+    </form>
+
+        </div>
+    </div>
+  <script src="signin.js"></script>  
+</body>
+</html>
