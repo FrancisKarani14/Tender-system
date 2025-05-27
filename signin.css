@@ -17,9 +17,9 @@
 }
 .formfield{
    background-color: white;
-   width: 60%;
+   width: auto;
    max-width: 65%;
-   height: 63%;
+   height: auto;
    max-height:63%;
    top: 50%;
    left: 50%;
@@ -47,12 +47,19 @@
     background-color: white;
     display: flex;
     font-size: 2rem;
+    justify-content: flex-end;
     text-transform: capitalize;
     gap: 30px;
     list-style: none;
+    padding-right: 10px;
  }
  li{
     margin-top: 10px;
+ }
+ img{
+   position: absolute;
+   top: 0%;
+   left: 0%;
  }
  .inputfield{
     padding-left: 20px;
@@ -110,4 +117,120 @@
  }
  li{
     margin-top: 10px;
+ }
+ @media screen and (min-width: 1400px) {
+   nav ul li img{
+      height: 90px;
+      box-shadow: 15px 15px 25px black;
+  }
+  nav ul{
+      height: 90px;
+  }
+  nav ul li{
+      font-size: 2.5rem;
+      padding-top: 15px;
+  }
+  .formfield{
+   width: 30%;
+   height: 52%;
+  }
+  .inputfield{
+   height: 50px;
+  }
+  input{
+   height: 30px;
+   width: 50%;
+   font-size: 20px;
+  }
+ }
+@media screen and (max-width: 1400px) {
+  nav ul li img{
+     height: 90px;
+     box-shadow: 15px 15px 25px black;
+ }
+ nav ul{
+     height: 90px;
+ }
+ nav ul li{
+     font-size: 2.5rem;
+     padding-top: 15px;
+ }
+ .formfield{
+   width: 30%;
+   height: 52%;
+  }
+  .inputfield{
+   height: 50px;
+  }
+  input{
+   height: 30px;
+   width: 50%;
+   font-size: 20px;
+  }
+}
+@media screen and (max-width:1200px) {
+   nav ul li img{
+      height: 90px;
+      box-shadow: 15px 15px 25px black;
+  }
+  nav ul{
+      height: 90px;
+  }
+  nav ul li{
+      font-size: 2.5rem;
+      padding-top: 15px;
+  }
+  
+ }
+ @media screen and (max-width: 992px) {
+   nav ul li img{
+      height: 70px;
+      box-shadow: 10px 10px 25px black;
+      
+  }
+  nav ul{
+      height: 70px;
+  }
+  nav ul li{
+      font-size: 2rem;
+      padding-top: 20px;
+  }
+  .formfield{
+   /* display: none; */
+   max-height: 100%;
+  }
+ }
+ @media screen and (max-width: 786px) {
+   nav ul{
+      height: 70px;
+  }
+  nav ul li img{
+      height: 70px;
+      box-shadow: 10px 10px 25px black; 
+  }
+  nav ul li a{
+      font-size: 1.5rem;
+  }
+  nav ul li{
+      padding-top: 20px;
+  }
+ }
+
+
+@media screen and (max-width: 576px){
+   nav ul li img{
+      height: 60px;
+      box-shadow: 15px 15px 25px black;
+  }
+  nav ul{
+      height: 60px;
+  }
+  nav ul li{
+      font-size: 1.5rem;
+      padding-top: 5px;
+  }
+  .formfield{
+   height: auto; 
+  }
+   
  }

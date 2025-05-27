@@ -18,8 +18,8 @@
     background-color: white;
     width: 60%;
     max-width: 340px;
-    height: auto;
-    max-height: auto;
+    /* height: auto;
+    max-height: auto; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -102,65 +102,33 @@
    left: 0%;
  }
  /* media querries */
- @media screen and (max-width: 576px){
-   nav ul li img{
-      height: 60px;
-      box-shadow: 15px 15px 25px black;
-  }
-  nav ul{
-      height: 60px;
-  }
-  nav ul li{
-      font-size: 1.5rem;
-      padding-top: 5px;
-  }
-  .formfield{
-   height: auto;
-  }
-   
- }
- @media screen and (max-width: 786px) {
+ @media screen and (min-width: 1400px) {
+    nav ul li img{
+       height: 90px;
+       box-shadow: 15px 15px 25px black;
+   }
    nav ul{
-      height: 70px;
+       height: 90px;
+   }
+   nav ul li{
+       font-size: 2.5rem;
+       padding-top: 15px;
+   }
+   .formfield{
+    height: auto;
+    width: 70%;
+   }
+   .inputfield{
+    width: 90%;
+    margin-right: 10px;
+    height: 90px;
+   }
+   input{
+    height: 30px;
+    font-size: 20px;
+    width: 90%;
+   }
   }
-  nav ul li img{
-      height: 70px;
-      box-shadow: 10px 10px 25px black; 
-  }
-  nav ul li a{
-      font-size: 1.5rem;
-  }
-  nav ul li{
-      padding-top: 20px;
-  }
- }
- @media screen and (max-width: 992px) {
-   nav ul li img{
-      height: 70px;
-      box-shadow: 10px 10px 25px black;
-      
-  }
-  nav ul{
-      height: 70px;
-  }
-  nav ul li{
-      font-size: 2rem;
-      padding-top: 20px;
-  }
- }
- @media screen and (max-width:1200px) {
-   nav ul li img{
-      height: 90px;
-      box-shadow: 15px 15px 25px black;
-  }
-  nav ul{
-      height: 90px;
-  }
-  nav ul li{
-      font-size: 2.5rem;
-      padding-top: 15px;
-  }
- }
  @media screen and (max-width: 1400px) {
    nav ul li img{
       height: 90px;
@@ -174,16 +142,69 @@
       padding-top: 15px;
   }
  }
- @media screen and (min-width: 1400px) {
+ @media screen and (max-width:1200px) {
+    nav ul li img{
+       height: 90px;
+       box-shadow: 15px 15px 25px black;
+   }
+   nav ul{
+       height: 90px;
+   }
+   nav ul li{
+       font-size: 2.5rem;
+       padding-top: 15px;
+   }
+   
+  }
+  @media screen and (max-width: 992px) {
+    nav ul li img{
+       height: 70px;
+       box-shadow: 10px 10px 25px black;
+       
+   }
+   nav ul{
+       height: 70px;
+   }
+   nav ul li{
+       font-size: 2rem;
+       padding-top: 20px;
+   }
+   .formfield{
+    /* display: none; */
+    max-height: 100%;
+   }
+  }
+  @media screen and (max-width: 786px) {
+    nav ul{
+       height: 70px;
+   }
    nav ul li img{
-      height: 90px;
-      box-shadow: 15px 15px 25px black;
+       height: 70px;
+       box-shadow: 10px 10px 25px black; 
+   }
+   nav ul li a{
+       font-size: 1.5rem;
+   }
+   nav ul li{
+       padding-top: 20px;
+   }
   }
-  nav ul{
-      height: 90px;
+
+
+ @media screen and (max-width: 576px){
+    nav ul li img{
+       height: 60px;
+       box-shadow: 15px 15px 25px black;
+   }
+   nav ul{
+       height: 60px;
+   }
+   nav ul li{
+       font-size: 1.5rem;
+       padding-top: 5px;
+   }
+   .formfield{
+    height: auto; 
+   }
+    
   }
-  nav ul li{
-      font-size: 2.5rem;
-      padding-top: 15px;
-  }
- }
